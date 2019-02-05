@@ -1,0 +1,64 @@
+.test {
+  background: #F9F0EF;
+  background: #BE3330;
+  background: #7E8287;
+  background: #E5E3E3;
+  background: #D1CCCC;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100vw;
+  background: #7E8287;
+}
+
+.navbar_title {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-family: 'Permanent Marker', cursive;
+  color: rgba(255, 255, 255 );
+  text-shadow: 2px 2px 2px #d1d1d1;
+  font-size: 1.5em;
+}
+
+.navbar_login_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  width: 90px;
+  height: 50%;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.navbar_login_img {
+  background: url('/images/login.png') no-repeat;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+}
+
+.navbar_login_title {
+  color: white;
+  font-size: .75em;
+}
+
+.navbar_login_container:hover {
+  border-right: 1px solid #BE3330;
+  border-left: 1px solid #BE3330;
+  cursor: pointer;
+}
+
+.navbar_login_container:hover > .navbar_login_img {
+  background: url('/images/login-red.png') no-repeat;
+  background-size: cover;
+}
+
+.navbar_login_container:hover > .navbar_login_title {
+  color: #BE3330
+}
